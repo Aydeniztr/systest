@@ -59,7 +59,7 @@ def getSystemInfo():
 try:
   getSystemInfo()
 except:
-  pass()
+  pass
 
 author = '''
 systest:shows advanced system info
