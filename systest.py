@@ -56,7 +56,10 @@ def getSystemInfo():
     print('\n')
   except Exception as e: logging.exception(e)
 
-getSystemInfo()
+try:
+  getSystemInfo()
+except:
+  pass()
 
 author = '''
 systest:shows advanced system info
